@@ -20,9 +20,5 @@
         "outDir": "./dist",
         "types": ["node"]
     },
-    "ts-node": {
-        // Tell ts-node CLI to install the --loader automatically
-        "esm": true
-    },
     "include": ["src"]
 }
