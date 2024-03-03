@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "lib": ["dom", "dom.iterable","es2020"],
+        "target": "ESNext",
+        "module": "ESNext",
+        "baseUrl": ".",
+        "paths": {}, //create react app only returns one path alias https://github.com/facebook/create-react-app/issues/11834#issuecomment-1010894264
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx", 
+        "rootDirs": ["src"],
+        "outDir": "./dist",
+        "types": ["node"]
+    },
+    "ts-node": {
+        // Tell ts-node CLI to install the --loader automatically
+        "esm": true
+    },
+    "include": ["src"]
+}

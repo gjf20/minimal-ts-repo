@@ -1,0 +1,24 @@
+# dev environment
+.vscode
+.env.template
+README.md
+.git
+.gitignore
+.gitattributes
+.dockerignore
+
+# build folders
+build
+node_modules
+dist
+#graphql.schema.json
+
+scripts
+!scripts/build.js
+!scripts/start.js
+images
+
+*.test.*
+
+# using yarn in docker image, so no package-lock
+package-lock.json
